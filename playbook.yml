@@ -1,0 +1,12 @@
+---
+- hosts: all
+  become: yes
+
+  roles:
+    - geerlingguy.repo-epel
+    - geerlingguy.pip
+    - geerlingguy.supervisor
+  vars:
+      - pip_executable: /usr/local/bin/pip2
+      - pip_package: python-pip
+

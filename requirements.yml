@@ -1,0 +1,6 @@
+---
+# file: requirements.yml
+
+- src: geerlingguy.repo-epel
+- src: geerlingguy.pip
+- src: geerlingguy.supervisor
